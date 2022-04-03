@@ -18,8 +18,8 @@ silinebilmesi gibi aşamaları içeren bir yemek seçme uygulaması.
 -Webden resim çekmek için Kingfisher Kütüphanesi<br>
 -Uygulama mimarisi olarak VİPER tasarım mimarisi<br>
 <br>
-Uygulamanın Anasayfa Ekran Görüntüsü:<br>
+Uygulamanın Giriş Sayfası Ekran Görüntüsü:
+<img width="250" alt="Ekran Resmi 2022-04-03 19 07 04" src="https://user-images.githubusercontent.com/37542511/161437067-fcf0c606-d9ce-4685-be44-cd16cbdf714c.png">
+Uygulamanın Anasayfa Ekran Görüntüsü:
+<img width="250" alt="Ekran Resmi 2022-04-03 19 03 15" src="https://user-images.githubusercontent.com/37542511/161436902-3678cf4a-c35a-44f2-9062-bd476cade15e.png">
 
-<img width="223" alt="Ekran Resmi 2022-04-03 19 03 15" src="https://user-images.githubusercontent.com/37542511/161436902-3678cf4a-c35a-44f2-9062-bd476cade15e.png">
-Uygulamanın Giriş Sayfası Ekran Görüntüsü:<br>
-<img width="223" alt="Ekran Resmi 2022-04-03 19 07 04" src="https://user-images.githubusercontent.com/37542511/161437067-fcf0c606-d9ce-4685-be44-cd16cbdf714c.png">
