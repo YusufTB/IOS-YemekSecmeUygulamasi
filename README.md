@@ -4,7 +4,7 @@
 <b>Proje Detayları</b><br>
 -Web servisden alınan yemek verilerinin listelenmesi, detay sayfasına gidip adet seçilerek sepete eklenmesi, sepetteki yemeklerin görüntülenebilmesi ve
 silinebilmesi gibi aşamaları içeren bir yemek seçme uygulaması.
-<br>
+<br><br><br>
 <b>Proje Kriterleri</b><br>
 -Tasarım doğruluğu ve görünümü<br>
 -Widget yapılarını kullanma becerisi<br>
