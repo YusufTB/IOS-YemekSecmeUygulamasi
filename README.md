@@ -4,13 +4,13 @@
 <b>Proje Detayları</b><br>
 -Web servisden alınan yemek verilerinin listelenmesi, detay sayfasına gidip adet seçilerek sepete eklenmesi, sepetteki yemeklerin görüntülenebilmesi ve
 silinebilmesi gibi aşamaları içeren bir yemek seçme uygulaması.
-
+<br>
 <b>Proje Kriterleri</b><br>
 -Tasarım doğruluğu ve görünümü<br>
 -Widget yapılarını kullanma becerisi<br>
 -Webservis kullanma becerisi<br>
 -Algoritma oluşturma becerisi
-<br>
+<br><br><br>
 <b>Kullanılan Teknolojiler</b><br>
 -Programlama dili Swift 5.0 geliştirici sdk UIkit<br>
 -Kullanıcı kayıt ve giriş işlemleri için Firebase<br>
