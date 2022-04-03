@@ -7,15 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8015FB9D27F476B400055DDA /* YemeklerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8015FB9C27F476B400055DDA /* YemeklerCollectionViewCell.swift */; };
+		8015FB9F27F47C3500055DDA /* Yemekler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8015FB9E27F47C3500055DDA /* Yemekler.swift */; };
+		8015FBA127F47DE300055DDA /* YemeklerCevap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8015FBA027F47DE300055DDA /* YemeklerCevap.swift */; };
+		8015FBA527F47E9800055DDA /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 8015FBA427F47E9800055DDA /* Alamofire */; };
+		8015FBA827F480DB00055DDA /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 8015FBA727F480DB00055DDA /* Kingfisher */; };
+		801DA47427F4DA2B008FFE67 /* SepetYemekler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801DA47327F4DA2B008FFE67 /* SepetYemekler.swift */; };
+		801DA47627F4DAB5008FFE67 /* SepetYemeklerCevap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801DA47527F4DAB5008FFE67 /* SepetYemeklerCevap.swift */; };
+		801F240B27F330D300D2C1FF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801F240A27F330D300D2C1FF /* Extensions.swift */; };
+		801F4C2127F5C46000D087B8 /* SepetimVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801F4C2027F5C46000D087B8 /* SepetimVC.swift */; };
+		801F4C2327F5C8D300D087B8 /* SepetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801F4C2227F5C8D300D087B8 /* SepetTableViewCell.swift */; };
+		80319E2427F26D6D004F8FA2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80319E2327F26D6D004F8FA2 /* GoogleService-Info.plist */; };
+		8033F9C727F3139800EED552 /* DesignableUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8033F9C627F3139800EED552 /* DesignableUITextField.swift */; };
+		8034564D27F9D75D000BE2D5 /* YemekSiparisProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8034564C27F9D75D000BE2D5 /* YemekSiparisProtocols.swift */; };
+		8034565027F9D7F1000BE2D5 /* YemekSiparisInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8034564F27F9D7F1000BE2D5 /* YemekSiparisInteractor.swift */; };
+		8034565227F9D8C5000BE2D5 /* YemekSiparisPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8034565127F9D8C5000BE2D5 /* YemekSiparisPresenter.swift */; };
+		8034565427F9D95F000BE2D5 /* YemekSiparisRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8034565327F9D95F000BE2D5 /* YemekSiparisRouter.swift */; };
+		8041006327F8CBCB00B12969 /* AnasayfaProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8041006227F8CBCB00B12969 /* AnasayfaProtocols.swift */; };
+		8041006527F8CD3F00B12969 /* AnasayfaInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8041006427F8CD3F00B12969 /* AnasayfaInteractor.swift */; };
+		8041006727F8D0F900B12969 /* AnasayfaPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8041006627F8D0F900B12969 /* AnasayfaPresenter.swift */; };
+		8041006927F8D29200B12969 /* AnasayfaRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8041006827F8D29200B12969 /* AnasayfaRouter.swift */; };
+		8041007327F8DBAF00B12969 /* YemekDetayProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8041007227F8DBAF00B12969 /* YemekDetayProtocols.swift */; };
+		8041007527F8DD2000B12969 /* YemekDetayInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8041007427F8DD2000B12969 /* YemekDetayInteractor.swift */; };
+		8041007727F8DDA500B12969 /* YemekDetayPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8041007627F8DDA500B12969 /* YemekDetayPresenter.swift */; };
+		8041007927F8DDF500B12969 /* YemekDetayRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8041007827F8DDF500B12969 /* YemekDetayRouter.swift */; };
+		8041008227F8E7CE00B12969 /* YemekSepetProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8041008127F8E7CE00B12969 /* YemekSepetProtocols.swift */; };
+		8041008427F8E92B00B12969 /* YemekSepetInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8041008327F8E92B00B12969 /* YemekSepetInteractor.swift */; };
+		8041008627F8EA9F00B12969 /* YemekSepetPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8041008527F8EA9F00B12969 /* YemekSepetPresenter.swift */; };
+		8041008827F8EB1B00B12969 /* YemekSepetRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8041008727F8EB1B00B12969 /* YemekSepetRouter.swift */; };
 		807B491427F1D15C00FDDAF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807B491327F1D15C00FDDAF1 /* AppDelegate.swift */; };
 		807B491627F1D15C00FDDAF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807B491527F1D15C00FDDAF1 /* SceneDelegate.swift */; };
-		807B491827F1D15C00FDDAF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807B491727F1D15C00FDDAF1 /* ViewController.swift */; };
+		807B491827F1D15C00FDDAF1 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807B491727F1D15C00FDDAF1 /* LoginVC.swift */; };
 		807B491B27F1D15C00FDDAF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 807B491927F1D15C00FDDAF1 /* Main.storyboard */; };
 		807B491D27F1D15D00FDDAF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 807B491C27F1D15D00FDDAF1 /* Assets.xcassets */; };
 		807B492027F1D15D00FDDAF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 807B491E27F1D15D00FDDAF1 /* LaunchScreen.storyboard */; };
 		807B492B27F1D15D00FDDAF1 /* YemekSecmeUygulamasiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807B492A27F1D15D00FDDAF1 /* YemekSecmeUygulamasiTests.swift */; };
 		807B493527F1D15D00FDDAF1 /* YemekSecmeUygulamasiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807B493427F1D15D00FDDAF1 /* YemekSecmeUygulamasiUITests.swift */; };
 		807B493727F1D15D00FDDAF1 /* YemekSecmeUygulamasiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807B493627F1D15D00FDDAF1 /* YemekSecmeUygulamasiUITestsLaunchTests.swift */; };
+		807B494527F1D23100FDDAF1 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 807B494427F1D23100FDDAF1 /* FirebaseAuth */; };
+		807B494727F1D23100FDDAF1 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 807B494627F1D23100FDDAF1 /* FirebaseDatabase */; };
+		807B494B27F2231F00FDDAF1 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807B494A27F2231F00FDDAF1 /* RegisterVC.swift */; };
+		807B494D27F22FFB00FDDAF1 /* AnasayfaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807B494C27F22FFB00FDDAF1 /* AnasayfaVC.swift */; };
+		807B494F27F2417100FDDAF1 /* YemekDetayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807B494E27F2417100FDDAF1 /* YemekDetayVC.swift */; };
+		807B495227F245AB00FDDAF1 /* Hurricane-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 807B495127F245AB00FDDAF1 /* Hurricane-Regular.ttf */; };
+		80AB0D1B27F758D400C7F3A0 /* SiparislerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AB0D1A27F758D400C7F3A0 /* SiparislerVC.swift */; };
+		80AB0D1D27F75AFE00C7F3A0 /* SiparislerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AB0D1C27F75AFE00C7F3A0 /* SiparislerTableViewCell.swift */; };
+		80AB0D1F27F75F6300C7F3A0 /* Siparisler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AB0D1E27F75F6300C7F3A0 /* Siparisler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +73,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8015FB9C27F476B400055DDA /* YemeklerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemeklerCollectionViewCell.swift; sourceTree = "<group>"; };
+		8015FB9E27F47C3500055DDA /* Yemekler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yemekler.swift; sourceTree = "<group>"; };
+		8015FBA027F47DE300055DDA /* YemeklerCevap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemeklerCevap.swift; sourceTree = "<group>"; };
+		801DA47327F4DA2B008FFE67 /* SepetYemekler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetYemekler.swift; sourceTree = "<group>"; };
+		801DA47527F4DAB5008FFE67 /* SepetYemeklerCevap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetYemeklerCevap.swift; sourceTree = "<group>"; };
+		801F240A27F330D300D2C1FF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		801F4C2027F5C46000D087B8 /* SepetimVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetimVC.swift; sourceTree = "<group>"; };
+		801F4C2227F5C8D300D087B8 /* SepetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetTableViewCell.swift; sourceTree = "<group>"; };
+		80319E2327F26D6D004F8FA2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8033F9C627F3139800EED552 /* DesignableUITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableUITextField.swift; sourceTree = "<group>"; };
+		8034564C27F9D75D000BE2D5 /* YemekSiparisProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemekSiparisProtocols.swift; sourceTree = "<group>"; };
+		8034564F27F9D7F1000BE2D5 /* YemekSiparisInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemekSiparisInteractor.swift; sourceTree = "<group>"; };
+		8034565127F9D8C5000BE2D5 /* YemekSiparisPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemekSiparisPresenter.swift; sourceTree = "<group>"; };
+		8034565327F9D95F000BE2D5 /* YemekSiparisRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemekSiparisRouter.swift; sourceTree = "<group>"; };
+		8041006227F8CBCB00B12969 /* AnasayfaProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaProtocols.swift; sourceTree = "<group>"; };
+		8041006427F8CD3F00B12969 /* AnasayfaInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaInteractor.swift; sourceTree = "<group>"; };
+		8041006627F8D0F900B12969 /* AnasayfaPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaPresenter.swift; sourceTree = "<group>"; };
+		8041006827F8D29200B12969 /* AnasayfaRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaRouter.swift; sourceTree = "<group>"; };
+		8041007227F8DBAF00B12969 /* YemekDetayProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemekDetayProtocols.swift; sourceTree = "<group>"; };
+		8041007427F8DD2000B12969 /* YemekDetayInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemekDetayInteractor.swift; sourceTree = "<group>"; };
+		8041007627F8DDA500B12969 /* YemekDetayPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemekDetayPresenter.swift; sourceTree = "<group>"; };
+		8041007827F8DDF500B12969 /* YemekDetayRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemekDetayRouter.swift; sourceTree = "<group>"; };
+		8041008127F8E7CE00B12969 /* YemekSepetProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemekSepetProtocols.swift; sourceTree = "<group>"; };
+		8041008327F8E92B00B12969 /* YemekSepetInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemekSepetInteractor.swift; sourceTree = "<group>"; };
+		8041008527F8EA9F00B12969 /* YemekSepetPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemekSepetPresenter.swift; sourceTree = "<group>"; };
+		8041008727F8EB1B00B12969 /* YemekSepetRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemekSepetRouter.swift; sourceTree = "<group>"; };
 		807B491027F1D15C00FDDAF1 /* YemekSecmeUygulamasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YemekSecmeUygulamasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		807B491327F1D15C00FDDAF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		807B491527F1D15C00FDDAF1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		807B491727F1D15C00FDDAF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		807B491727F1D15C00FDDAF1 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		807B491A27F1D15C00FDDAF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		807B491C27F1D15D00FDDAF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		807B491F27F1D15D00FDDAF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +112,13 @@
 		807B493027F1D15D00FDDAF1 /* YemekSecmeUygulamasiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YemekSecmeUygulamasiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		807B493427F1D15D00FDDAF1 /* YemekSecmeUygulamasiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemekSecmeUygulamasiUITests.swift; sourceTree = "<group>"; };
 		807B493627F1D15D00FDDAF1 /* YemekSecmeUygulamasiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemekSecmeUygulamasiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		807B494A27F2231F00FDDAF1 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		807B494C27F22FFB00FDDAF1 /* AnasayfaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaVC.swift; sourceTree = "<group>"; };
+		807B494E27F2417100FDDAF1 /* YemekDetayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemekDetayVC.swift; sourceTree = "<group>"; };
+		807B495127F245AB00FDDAF1 /* Hurricane-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hurricane-Regular.ttf"; sourceTree = "<group>"; };
+		80AB0D1A27F758D400C7F3A0 /* SiparislerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiparislerVC.swift; sourceTree = "<group>"; };
+		80AB0D1C27F75AFE00C7F3A0 /* SiparislerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiparislerTableViewCell.swift; sourceTree = "<group>"; };
+		80AB0D1E27F75F6300C7F3A0 /* Siparisler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Siparisler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +126,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8015FBA827F480DB00055DDA /* Kingfisher in Frameworks */,
+				8015FBA527F47E9800055DDA /* Alamofire in Frameworks */,
+				807B494727F1D23100FDDAF1 /* FirebaseDatabase in Frameworks */,
+				807B494527F1D23100FDDAF1 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +150,278 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8015FBA227F47E0000055DDA /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				8015FB9E27F47C3500055DDA /* Yemekler.swift */,
+				8015FBA027F47DE300055DDA /* YemeklerCevap.swift */,
+				801DA47327F4DA2B008FFE67 /* SepetYemekler.swift */,
+				801DA47527F4DAB5008FFE67 /* SepetYemeklerCevap.swift */,
+				80AB0D1E27F75F6300C7F3A0 /* Siparisler.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		801F240C27F3310600D2C1FF /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				801F240A27F330D300D2C1FF /* Extensions.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		8034564527F9D6E7000BE2D5 /* yemek_siparis-module */ = {
+			isa = PBXGroup;
+			children = (
+				8034564B27F9D719000BE2D5 /* tableView */,
+				8034564A27F9D713000BE2D5 /* router */,
+				8034564927F9D70D000BE2D5 /* view */,
+				8034564827F9D707000BE2D5 /* presenter */,
+				8034564727F9D700000BE2D5 /* interactor */,
+				8034564627F9D6F7000BE2D5 /* protocols */,
+			);
+			path = "yemek_siparis-module";
+			sourceTree = "<group>";
+		};
+		8034564627F9D6F7000BE2D5 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				8034564C27F9D75D000BE2D5 /* YemekSiparisProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		8034564727F9D700000BE2D5 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				8034564F27F9D7F1000BE2D5 /* YemekSiparisInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		8034564827F9D707000BE2D5 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				8034565127F9D8C5000BE2D5 /* YemekSiparisPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		8034564927F9D70D000BE2D5 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				80AB0D1A27F758D400C7F3A0 /* SiparislerVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		8034564A27F9D713000BE2D5 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				8034565327F9D95F000BE2D5 /* YemekSiparisRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		8034564B27F9D719000BE2D5 /* tableView */ = {
+			isa = PBXGroup;
+			children = (
+				80AB0D1C27F75AFE00C7F3A0 /* SiparislerTableViewCell.swift */,
+			);
+			path = tableView;
+			sourceTree = "<group>";
+		};
+		8034565527F9E015000BE2D5 /* authentication */ = {
+			isa = PBXGroup;
+			children = (
+				807B491727F1D15C00FDDAF1 /* LoginVC.swift */,
+				807B494A27F2231F00FDDAF1 /* RegisterVC.swift */,
+			);
+			path = authentication;
+			sourceTree = "<group>";
+		};
+		8041005B27F8CB0C00B12969 /* anasayfa-module */ = {
+			isa = PBXGroup;
+			children = (
+				8041005C27F8CB1B00B12969 /* collectionView */,
+				8041006127F8CB5100B12969 /* router */,
+				8041006027F8CB4800B12969 /* view */,
+				8041005F27F8CB4100B12969 /* presenter */,
+				8041005E27F8CB3900B12969 /* interactor */,
+				8041005D27F8CB2C00B12969 /* protocols */,
+			);
+			path = "anasayfa-module";
+			sourceTree = "<group>";
+		};
+		8041005C27F8CB1B00B12969 /* collectionView */ = {
+			isa = PBXGroup;
+			children = (
+				8015FB9C27F476B400055DDA /* YemeklerCollectionViewCell.swift */,
+			);
+			path = collectionView;
+			sourceTree = "<group>";
+		};
+		8041005D27F8CB2C00B12969 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				8041006227F8CBCB00B12969 /* AnasayfaProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		8041005E27F8CB3900B12969 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				8041006427F8CD3F00B12969 /* AnasayfaInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		8041005F27F8CB4100B12969 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				8041006627F8D0F900B12969 /* AnasayfaPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		8041006027F8CB4800B12969 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				807B494C27F22FFB00FDDAF1 /* AnasayfaVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		8041006127F8CB5100B12969 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				8041006827F8D29200B12969 /* AnasayfaRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		8041006A27F8D8B700B12969 /* design */ = {
+			isa = PBXGroup;
+			children = (
+				8033F9C627F3139800EED552 /* DesignableUITextField.swift */,
+			);
+			path = design;
+			sourceTree = "<group>";
+		};
+		8041006B27F8DB3E00B12969 /* yemek_detay-module */ = {
+			isa = PBXGroup;
+			children = (
+				8041007027F8DB7B00B12969 /* router */,
+				8041006F27F8DB7400B12969 /* view */,
+				8041006E27F8DB6C00B12969 /* presenter */,
+				8041006D27F8DB5200B12969 /* interactor */,
+				8041006C27F8DB4B00B12969 /* protocols */,
+			);
+			path = "yemek_detay-module";
+			sourceTree = "<group>";
+		};
+		8041006C27F8DB4B00B12969 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				8041007227F8DBAF00B12969 /* YemekDetayProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		8041006D27F8DB5200B12969 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				8041007427F8DD2000B12969 /* YemekDetayInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		8041006E27F8DB6C00B12969 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				8041007627F8DDA500B12969 /* YemekDetayPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		8041006F27F8DB7400B12969 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				807B494E27F2417100FDDAF1 /* YemekDetayVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		8041007027F8DB7B00B12969 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				8041007827F8DDF500B12969 /* YemekDetayRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		8041007A27F8E46700B12969 /* yemek_sepet-module */ = {
+			isa = PBXGroup;
+			children = (
+				8041008027F8E49700B12969 /* tableView */,
+				8041007F27F8E49100B12969 /* router */,
+				8041007E27F8E48A00B12969 /* view */,
+				8041007D27F8E48400B12969 /* presenter */,
+				8041007C27F8E47B00B12969 /* interactor */,
+				8041007B27F8E47400B12969 /* protocols */,
+			);
+			path = "yemek_sepet-module";
+			sourceTree = "<group>";
+		};
+		8041007B27F8E47400B12969 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				8041008127F8E7CE00B12969 /* YemekSepetProtocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		8041007C27F8E47B00B12969 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				8041008327F8E92B00B12969 /* YemekSepetInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		8041007D27F8E48400B12969 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				8041008527F8EA9F00B12969 /* YemekSepetPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		8041007E27F8E48A00B12969 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				801F4C2027F5C46000D087B8 /* SepetimVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		8041007F27F8E49100B12969 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				8041008727F8EB1B00B12969 /* YemekSepetRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		8041008027F8E49700B12969 /* tableView */ = {
+			isa = PBXGroup;
+			children = (
+				801F4C2227F5C8D300D087B8 /* SepetTableViewCell.swift */,
+			);
+			path = tableView;
+			sourceTree = "<group>";
+		};
 		807B490727F1D15C00FDDAF1 = {
 			isa = PBXGroup;
 			children = (
@@ -101,11 +447,20 @@
 			children = (
 				807B491327F1D15C00FDDAF1 /* AppDelegate.swift */,
 				807B491527F1D15C00FDDAF1 /* SceneDelegate.swift */,
-				807B491727F1D15C00FDDAF1 /* ViewController.swift */,
+				8034565527F9E015000BE2D5 /* authentication */,
 				807B491927F1D15C00FDDAF1 /* Main.storyboard */,
+				8034564527F9D6E7000BE2D5 /* yemek_siparis-module */,
+				8041007A27F8E46700B12969 /* yemek_sepet-module */,
+				8041006B27F8DB3E00B12969 /* yemek_detay-module */,
+				8041005B27F8CB0C00B12969 /* anasayfa-module */,
+				8015FBA227F47E0000055DDA /* entity */,
+				801F240C27F3310600D2C1FF /* extensions */,
+				8041006A27F8D8B700B12969 /* design */,
+				807B495027F2458E00FDDAF1 /* fonts */,
 				807B491C27F1D15D00FDDAF1 /* Assets.xcassets */,
 				807B491E27F1D15D00FDDAF1 /* LaunchScreen.storyboard */,
 				807B492127F1D15D00FDDAF1 /* Info.plist */,
+				80319E2327F26D6D004F8FA2 /* GoogleService-Info.plist */,
 			);
 			path = YemekSecmeUygulamasi;
 			sourceTree = "<group>";
@@ -127,6 +482,14 @@
 			path = YemekSecmeUygulamasiUITests;
 			sourceTree = "<group>";
 		};
+		807B495027F2458E00FDDAF1 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				807B495127F245AB00FDDAF1 /* Hurricane-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +506,12 @@
 			dependencies = (
 			);
 			name = YemekSecmeUygulamasi;
+			packageProductDependencies = (
+				807B494427F1D23100FDDAF1 /* FirebaseAuth */,
+				807B494627F1D23100FDDAF1 /* FirebaseDatabase */,
+				8015FBA427F47E9800055DDA /* Alamofire */,
+				8015FBA727F480DB00055DDA /* Kingfisher */,
+			);
 			productName = YemekSecmeUygulamasi;
 			productReference = 807B491027F1D15C00FDDAF1 /* YemekSecmeUygulamasi.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +584,11 @@
 				Base,
 			);
 			mainGroup = 807B490727F1D15C00FDDAF1;
+			packageReferences = (
+				807B494327F1D23100FDDAF1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				8015FBA327F47E9700055DDA /* XCRemoteSwiftPackageReference "Alamofire" */,
+				8015FBA627F480DA00055DDA /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 807B491127F1D15C00FDDAF1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +607,9 @@
 			files = (
 				807B492027F1D15D00FDDAF1 /* LaunchScreen.storyboard in Resources */,
 				807B491D27F1D15D00FDDAF1 /* Assets.xcassets in Resources */,
+				80319E2427F26D6D004F8FA2 /* GoogleService-Info.plist in Resources */,
 				807B491B27F1D15C00FDDAF1 /* Main.storyboard in Resources */,
+				807B495227F245AB00FDDAF1 /* Hurricane-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +634,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				807B491827F1D15C00FDDAF1 /* ViewController.swift in Sources */,
+				8041006327F8CBCB00B12969 /* AnasayfaProtocols.swift in Sources */,
+				801F4C2127F5C46000D087B8 /* SepetimVC.swift in Sources */,
+				8041008827F8EB1B00B12969 /* YemekSepetRouter.swift in Sources */,
+				8041007527F8DD2000B12969 /* YemekDetayInteractor.swift in Sources */,
+				801DA47627F4DAB5008FFE67 /* SepetYemeklerCevap.swift in Sources */,
+				807B494D27F22FFB00FDDAF1 /* AnasayfaVC.swift in Sources */,
+				8041008627F8EA9F00B12969 /* YemekSepetPresenter.swift in Sources */,
+				80AB0D1F27F75F6300C7F3A0 /* Siparisler.swift in Sources */,
+				8034565027F9D7F1000BE2D5 /* YemekSiparisInteractor.swift in Sources */,
+				807B491827F1D15C00FDDAF1 /* LoginVC.swift in Sources */,
+				80AB0D1B27F758D400C7F3A0 /* SiparislerVC.swift in Sources */,
+				8041006727F8D0F900B12969 /* AnasayfaPresenter.swift in Sources */,
+				8041007327F8DBAF00B12969 /* YemekDetayProtocols.swift in Sources */,
+				8041008227F8E7CE00B12969 /* YemekSepetProtocols.swift in Sources */,
+				8015FB9D27F476B400055DDA /* YemeklerCollectionViewCell.swift in Sources */,
+				807B494B27F2231F00FDDAF1 /* RegisterVC.swift in Sources */,
+				801F4C2327F5C8D300D087B8 /* SepetTableViewCell.swift in Sources */,
+				801F240B27F330D300D2C1FF /* Extensions.swift in Sources */,
+				801DA47427F4DA2B008FFE67 /* SepetYemekler.swift in Sources */,
+				8015FB9F27F47C3500055DDA /* Yemekler.swift in Sources */,
 				807B491427F1D15C00FDDAF1 /* AppDelegate.swift in Sources */,
+				8015FBA127F47DE300055DDA /* YemeklerCevap.swift in Sources */,
+				8041007727F8DDA500B12969 /* YemekDetayPresenter.swift in Sources */,
+				8041008427F8E92B00B12969 /* YemekSepetInteractor.swift in Sources */,
+				8033F9C727F3139800EED552 /* DesignableUITextField.swift in Sources */,
+				807B494F27F2417100FDDAF1 /* YemekDetayVC.swift in Sources */,
+				8041006927F8D29200B12969 /* AnasayfaRouter.swift in Sources */,
+				8041007927F8DDF500B12969 /* YemekDetayRouter.swift in Sources */,
+				8034565427F9D95F000BE2D5 /* YemekSiparisRouter.swift in Sources */,
+				80AB0D1D27F75AFE00C7F3A0 /* SiparislerTableViewCell.swift in Sources */,
+				8034564D27F9D75D000BE2D5 /* YemekSiparisProtocols.swift in Sources */,
+				8041006527F8CD3F00B12969 /* AnasayfaInteractor.swift in Sources */,
 				807B491627F1D15C00FDDAF1 /* SceneDelegate.swift in Sources */,
+				8034565227F9D8C5000BE2D5 /* YemekSiparisPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -624,6 +1031,56 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8015FBA327F47E9700055DDA /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		8015FBA627F480DA00055DDA /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		807B494327F1D23100FDDAF1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8015FBA427F47E9800055DDA /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8015FBA327F47E9700055DDA /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		8015FBA727F480DB00055DDA /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8015FBA627F480DA00055DDA /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		807B494427F1D23100FDDAF1 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 807B494327F1D23100FDDAF1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		807B494627F1D23100FDDAF1 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 807B494327F1D23100FDDAF1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 807B490827F1D15C00FDDAF1 /* Project object */;
 }
