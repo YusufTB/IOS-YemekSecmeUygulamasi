@@ -20,4 +20,7 @@ silinebilmesi gibi aşamaları içeren bir yemek seçme uygulaması.
 <br>
 <img width="250" alt="Ekran Resmi 2022-04-03 19 07 04" src="https://user-images.githubusercontent.com/37542511/161437067-fcf0c606-d9ce-4685-be44-cd16cbdf714c.png">
 <img width="250" alt="Ekran Resmi 2022-04-03 19 03 15" src="https://user-images.githubusercontent.com/37542511/161436902-3678cf4a-c35a-44f2-9062-bd476cade15e.png">
+<img width="446" alt="Ekran Resmi 2022-04-03 19 10 53" src="https://user-images.githubusercontent.com/37542511/161437240-b91f9d3f-2338-4049-b264-0ea395b62a4a.png">
+
+
 
